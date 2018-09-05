@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,800");
+/*@import "compass/css3";*/
+
+.body {
+	padding: 0;
+}
+
+
+.page {
+		min-height: 100%;
+	background-color: lightblue;
+}
+
+.container-fluid.main {
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+
+}
+.container-fluid {
+	padding: 0;
+}
+.navbar-collapse,
+.navbar-form {
+	background-color: #ddd1c7;
+	}
+
+.navbar-default {
+	background-image: none;
+	background-color: transparent;
+	border-radius: 0px;
+	border: 0;
+	box-shadow: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+.navbar-default .navbar-brand {
+	font-family: Verdana;
+	color: #593f62;
+	font-size: 35px;
+	padding-left: 30px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #fff;
+
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #593f62;
+	font-size: 16px;
+	padding-left: 25px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #ffffff;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ddd1c7;
+}
+
+.carousel .background {
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 1200px;
+}
+
+@media (max-width: 991px) {
+	.carousel .background {
+		background-size: cover; /* To make the background image looks good */
+	}
+} 
+
+.carousel .background.a {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/BlbsGpz.jpg");
+}
+
+.carousel .background.b {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/UxDROkJ.jpg");
+}
+
+.carousel .background.c {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/FFIIEUq.jpg");
+}
+
+.carousel .background.d {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/z4cwSZB.jpg");
+}
+
+.carousel .background.e {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/U6cylj7.jpg");
+}
+
+.carousel .background.f {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/QfZtNwd.jpg");
+}
+
+.carousel .background.g {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/IKkb0OB.jpg");
+}
+
+
+
+.carousel-fade .carousel-inner .item {
+	opacity: 0;
+	transition: opacity 0.9s; /* The 0.5s describes the duration to make the opacity from 0 to 1 */
+}
+
+.carousel-fade .carousel-inner .active {
+	opacity: 1;
+}
+
+/* CSS Hack to trigger GPU for smooth transition */
+@media all and (transform-3d), (-webkit-transform-3d) {
+	.carousel-fade .carousel-inner > .item.next,
+	.carousel-fade .carousel-inner > .item.active.right {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.carousel-fade .carousel-inner > .item.prev,
+	.carousel-fade .carousel-inner > .item.active.left {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.carousel-fade .carousel-inner > .item.next.left,
+	.carousel-fade .carousel-inner > .item.prev.right,
+	.carousel-fade .carousel-inner > .item.active {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+/* CSS Hack to trigger GPU for smooth transition */
+
+.covertext {
+	position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+	top: 150px; /* The distance between the div with the top of document */
+	left: 0px; /* Make the div full width */
+	right: 0px; /* Make the div full width */
+}
+
+.box {
+	background: rgba(0, 0, 0, 0.4);
+	border: 3px solid #000;
+	color: #fff;
+	text-align: center;
+	padding: 10px 20px;
+	width: 60%;
+	margin: auto;
+}
+.box1 {
+	background: rgba(0, 0, 0, 0.4);
+	border: 3px solid #000;
+	color: #ddd1c7;
+	text-align: center;
+	padding: 10px 20px;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 50px;
+	
+}
+
+@media (min-width: 768px) {
+	.full-width-img {
+		padding-top: 100px;
+		height: 1000px;
+	}
+
+	.covertext {
+		/*	position: absolute;
+		position-top: 50px;*/
+	}
+
+	.box {
+		margin-top: 0px;
+	}
+}
+
+#weddingcountdown {
+	/*padding: 1em*/
+}
+#weddingcountdown > div {
+	padding: 0px;
+	border-radius: 0px;
+	/*background: #000;*/
+	background: 1;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+#clockdiv {
+	font-family: sans-serif;
+	color: #593f62;
+	/*display: inline-block;*/
+	font-weight: 100;
+	text-align: center;
+	font-size: 4vw;
+	min-width: 50px;
+}
+
+#clockdiv > div {
+	padding: 4px;
+	min-width: 50px;
+	border-radius: 0em;
+	/*background: #CFACCE;*/
+	display: inline-block;
+	width: 16%;
+}
+
+#clockdiv div > span {
+	padding: 0em;
+	min-width: 50px;
+	border-radius: 0em;
+	background: #ddd1c7;
+	display: inline-block;
+	width: 90%;
+	margin-top: 0.1em;
+}
+
+.smalltext {
+	padding-top: 0em;
+	font-size: 1em;
+	color: #ddd1c7;
+	text-align: center;
+}
+
+.clocktitle {
+	font-size: 4.5vw;
+	font-weight: bold;
+	color: #ddd1c7;
+	padding-bottom: 0.5em;
+}
+
+@media (max-width: 600px) {
+	.box {
+		width: 85%;
+		position: relative;
+		}
+	.box1 {
+		width: 85%;
+	}
+	.navbar-default .navbar-brand {
+		font-size: 20px;
+			color: #ddd1c7;
+	}
+	.carousel .background {
+background-position: left top;
+		background-size: 100%;
+	background-repeat: no-repeat;
+		opacity: 0.1;
+/*height: 800px;*/
+}
+.carousel .background.a {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/DXRT7o8.jpg");
+}
+	.carousel .background.b {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/irRXMNT.jpg");
+}
+	.carousel .background.c {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/tr6oTnt.jpg");
+}
+	.carousel .background.d {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/qM17ywV.jpg");
+}
+	.carousel .background.e {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/iQ2EVLd.jpg");
+}
+	.carousel .background.f {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/Cwupurr.jpg");
+}
+	.carousel .background.g {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/tr6oTnt.jpg");
+}
+
+}
