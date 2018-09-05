@@ -1,20 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,800");
-/*@import "compass/css3";*/
 
-.body {
-	padding: 0;
-}
-
-
-.page {
-		min-height: 100%;
-	background-color: lightblue;
+.page{
+  height:100%;
+  width:100%;
+  overflow:hidden;
+	background: linear-gradient(#363437, #121112);
+  position:fixed;
+  margin:0; 
+  padding:0;
 }
 
 .container-fluid.main {
 	position: relative;
 	padding: 0;
-	overflow: hidden;
+/*	overflow: hidden;*/
 
 }
 .container-fluid {
@@ -171,7 +170,7 @@
 }
 
 .box {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.2);
 	border: 3px solid #000;
 	color: #fff;
 	text-align: center;
@@ -180,7 +179,7 @@
 	margin: auto;
 }
 .box1 {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.2);
 	border: 3px solid #000;
 	color: #ddd1c7;
 	text-align: center;
@@ -263,7 +262,7 @@
 	padding-bottom: 0.5em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 	.box {
 		width: 85%;
 		position: relative;
