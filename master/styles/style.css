@@ -35,7 +35,7 @@
 	border-radius: 0px;
 	border: 0;
 	box-shadow: none;
-/*	position: absolute;*/
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -83,7 +83,6 @@
 
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ddd1c7;
-	margin-right: 30px;
 }
 
 .carousel .background {
