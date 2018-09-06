@@ -27,6 +27,14 @@ position:fixed;
 	right: 0;
 	z-index: 10;
 	margin-bottom: 0px;	
+
+	.navbar-toggle collapsed{
+		margin-right:30px;
+	}
+	.button{
+	margin-right:30px;
+	background-color: #ddd1c7;
+	}
 }
 #cf1 {
 	padding: 0;
