@@ -5,7 +5,7 @@
   width:100%;
   overflow:hidden;
 	background: linear-gradient(#363437, #121112);
-/*  position:fixed;*/
+position:fixed;
   margin:0; 
   padding:0;
 }
@@ -18,10 +18,12 @@
 }
 .container-fluid {
 	padding: 0;
+	position: absolute;
 }
 
 .navbar {
 	border: 0;
+	position: absolute;
 }
 
 .navbar-collapse,
