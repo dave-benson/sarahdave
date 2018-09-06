@@ -5,7 +5,7 @@
   width:100%;
   overflow:hidden;
 	background: linear-gradient(#363437, #121112);
-  position:fixed;
+/*  position:fixed;*/
   margin:0; 
   padding:0;
 }
@@ -19,6 +19,11 @@
 .container-fluid {
 	padding: 0;
 }
+
+.navbar {
+	border: 0;
+}
+
 .navbar-collapse,
 .navbar-form {
 	background-color: #ddd1c7;
@@ -30,7 +35,7 @@
 	border-radius: 0px;
 	border: 0;
 	box-shadow: none;
-	position: absolute;
+/*	position: absolute;*/
 	top: 0;
 	left: 0;
 	right: 0;
@@ -77,6 +82,7 @@
 
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ddd1c7;
+	margin-right: 30px;
 }
 
 .carousel .background {
