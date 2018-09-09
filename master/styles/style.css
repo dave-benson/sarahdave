@@ -221,7 +221,7 @@
 @media (min-width: 768px) {
 	.full-width-img {
 		padding-top: 100px;
-		height: 1000px;
+		height: 100%;
 	}
 
 	.covertext {
