@@ -14,6 +14,7 @@
 	position: relative;
 	padding: 0;
 /*	overflow: hidden;*/
+	height: 100%;
 }
 #myNav1 {
 	background-image: none;
