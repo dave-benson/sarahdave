@@ -150,11 +150,11 @@ position: absolute;
 	text-align: center;
 }
 
-/*@media (max-width: 991px) {
+@media (max-width: 991px) {
 	.carousel .background {
 		background-size: cover; /* To make the background image looks good */
 	}
-} */
+} 
 
 .carousel .background.a {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -228,7 +228,7 @@ position: absolute;
 
 .covertext {
 	position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
-	top: 150px; /* The distance between the div with the top of document */
+	top: 80px; /* The distance between the div with the top of document */
 	left: 0px; /* Make the div full width */
 	right: 0px; /* Make the div full width */
 }
@@ -254,28 +254,74 @@ position: absolute;
 	
 }
 
-@media (min-width: 768px) {
-
+.box2 {
+	/*background: rgba(0, 0, 0, 0.2);*/
+	/*border: 3px solid #000;*/
+	color: #ddd1c7;
+	text-align: center;
+	padding: 10px 20px;
+	width: auto;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-size: 4em;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	
 }
 
-/*#weddingcountdown {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+	.full-width-img {
+		padding-top: 100px;
+		height: 100%;
+	}
+
+	.covertext {
+		/*	position: absolute;
+		position-top: 50px;*/
+	}
+
+	.box {
+		margin-top: 0px;
+	}
+}
+
+#weddingcountdown {
 	/*padding: 1em*/
 }
-/*#weddingcountdown > div {
+#weddingcountdown > div {
 	padding: 0px;
 	border-radius: 0px;
 	/*background: #000;*/
-/*	background: 1;
+	background: 1;
 	display: inline-block;
 	width: 100%;
 	position: relative;
 }
 
-/*#clockdiv {
+#clockdiv {
 	font-family: sans-serif;
 	color: #593f62;
 	/*display: inline-block;*/
-/*	font-weight: 100;
+	font-weight: 100;
 	text-align: center;
 	font-size: 4vw;
 	min-width: 50px;
@@ -286,7 +332,7 @@ position: absolute;
 	min-width: 50px;
 	border-radius: 0em;
 	/*background: #CFACCE;*/
-/*	display: inline-block;
+	display: inline-block;
 	width: 16%;
 }
 
@@ -305,36 +351,50 @@ position: absolute;
 	font-size: 1em;
 	color: #ddd1c7;
 	text-align: center;
-}*/
+}
 
-/*.clocktitle {
+.clocktitle {
 	font-size: 4.5vw;
 	font-weight: bold;
 	color: #ddd1c7;
 	padding-bottom: 0.5em;
-}*/
+}
 
-@media (max-width: 769px) {
-		.full-width-img {
-		padding-top: 100px;
-		height: 100%;
-	}
-
-	.covertext {
-		/*	position: absolute;
-		position-top: 50px;*/
-	}
-
-	/*.box {
-		margin-top: 0px;
-	}
+@media (max-width: 768px) {
 	.box {
-		width: 90%;
+		width: 85%;
 		position: relative;
-		}*/
+		}
 	.box1 {
 		width: 90%;
 	}
+	
+	#weddingcountdownh {
+			padding: 0.35em;
+/*position: absolute;*/
+  left: 0.7%;
+  width: 100%;
+  text-align: left;
+	}
+	
+#weddingcountdownh > div {
+	padding: 7px;
+	/*background: #000;*/
+	background: 1;
+	display: inline-block;
+	/*width: 100%;*/
+	position: relative;
+	background-color: #DAD2D8;
+	border-radius: 40px;
+	
+}
+	.smalltexth {
+	padding-top: 0em;
+	font-size: 0.7em;
+	color: #2B2B2B;
+	text-align: center;
+}
+
 	.navbar-default .navbar-brand {
 		font-size: 20px;
 			color: #ddd1c7;
@@ -379,31 +439,4 @@ background-position: left top;
 		url("https://i.imgur.com/tr6oTnt.jpg");
 }
 
-#weddingcountdownh {
-	padding: 0.1em;
-/*position: absolute;*/
-  left: 0%;
-  width: 100%;
-  text-align: center;
 }
-#weddingcountdownh > div {
-	padding: 10px;
-	/*background: #000;*/
-	/*background: 1;*/
-	display: block
-	/*width: 100%;*/
-	/*position: relative;*/
-	background-color: #DAD2D8;
-	border-radius: 50px;
-	
-}
-
-.smalltexth {
-	padding-top: 10em;
-	font-size: 1em;
-	color: #2B2B2B;
-	text-align: center;
-}
-
-}
-
