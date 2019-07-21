@@ -244,10 +244,10 @@
 	}
 }
 
-#weddingcountdown {
+/*#weddingcountdown {
 	/*padding: 1em*/
 }
-#weddingcountdown > div {
+/*#weddingcountdown > div {
 	padding: 0px;
 	border-radius: 0px;
 	/*background: #000;*/
@@ -257,11 +257,11 @@
 	position: relative;
 }
 
-#clockdiv {
+/*#clockdiv {
 	font-family: sans-serif;
 	color: #593f62;
 	/*display: inline-block;*/
-	font-weight: 100;
+/*	font-weight: 100;
 	text-align: center;
 	font-size: 4vw;
 	min-width: 50px;
@@ -272,7 +272,7 @@
 	min-width: 50px;
 	border-radius: 0em;
 	/*background: #CFACCE;*/
-	display: inline-block;
+/*	display: inline-block;
 	width: 16%;
 }
 
@@ -291,14 +291,14 @@
 	font-size: 1em;
 	color: #ddd1c7;
 	text-align: center;
-}
+}*/
 
-.clocktitle {
+/*.clocktitle {
 	font-size: 4.5vw;
 	font-weight: bold;
 	color: #ddd1c7;
 	padding-bottom: 0.5em;
-}
+}*/
 
 @media (max-width: 768px) {
 	.box {
@@ -352,15 +352,22 @@ background-position: left top;
 		url("https://i.imgur.com/tr6oTnt.jpg");
 }
 
-
-
+#weddingcountdownh {
+	padding: 0.1em;
+/*position: absolute;*/
+  left: 2%;
+  width: 100%;
+  text-align: left;
 }
-	
-	
+
 }
 
 #weddingcountdownh {
 	padding: 1em;
+position: absolute;
+  left: 0%;
+  width: 100%;
+  text-align: right;
 }
 #weddingcountdownh > div {
 	padding: 10px;
