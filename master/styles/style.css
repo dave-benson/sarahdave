@@ -42,7 +42,7 @@
 
 .navbar-collapse,
 .navbar-form {
-	background-color: #ddd1c7;
+	background-color: #FF0004;
 	}
 
 .navbar-default {
@@ -74,7 +74,7 @@
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	color: #fff;
+	color: #000000;
 
 	background-color: transparent;
 }
@@ -87,7 +87,7 @@
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #ffffff;
+	color: #000000;
 	background-color: transparent;
 }
 
