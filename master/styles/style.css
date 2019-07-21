@@ -222,7 +222,7 @@
 	color: #ddd1c7;
 	text-align: center;
 	padding: 10px 20px;
-	width: 60%;
+	width: 40%;
 	margin: auto;
 	margin-bottom: 50px;
 	
@@ -360,7 +360,7 @@ background-position: left top;
 }
 
 #weddingcountdownh {
-	padding: 1em;
+	padding: 14px;
 }
 #weddingcountdownh > div {
 	padding: 10px;
@@ -368,8 +368,6 @@ background-position: left top;
 	background: 1;
 	display: inline-block;
 	/*width: 100%;*/
-	position: relative;
-	display: inline-block;
 	background-color: #DAD2D8;
 	border-radius: 50px;
 	
