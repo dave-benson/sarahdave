@@ -124,11 +124,37 @@
 	height: 1200px;
 }
 
-@media (max-width: 991px) {
+#weddingcountdownh {
+	padding: 1em;
+position: absolute;
+  left: 0%;
+  width: 100%;
+  text-align: right;
+}
+#weddingcountdownh > div {
+	padding: 10px;
+	/*background: #000;*/
+	background: 1;
+	display: inline-block;
+	/*width: 100%;*/
+	position: relative;
+	background-color: #DAD2D8;
+	border-radius: 50px;
+	
+}
+
+.smalltexth {
+	padding-top: 0em;
+	font-size: 1em;
+	color: #2B2B2B;
+	text-align: center;
+}
+
+/*@media (max-width: 991px) {
 	.carousel .background {
 		background-size: cover; /* To make the background image looks good */
 	}
-} 
+} */
 
 .carousel .background.a {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -229,19 +255,7 @@
 }
 
 @media (min-width: 768px) {
-	.full-width-img {
-		padding-top: 100px;
-		height: 100%;
-	}
 
-	.covertext {
-		/*	position: absolute;
-		position-top: 50px;*/
-	}
-
-	.box {
-		margin-top: 0px;
-	}
 }
 
 /*#weddingcountdown {
@@ -251,7 +265,7 @@
 	padding: 0px;
 	border-radius: 0px;
 	/*background: #000;*/
-	background: 1;
+/*	background: 1;
 	display: inline-block;
 	width: 100%;
 	position: relative;
@@ -300,13 +314,26 @@
 	padding-bottom: 0.5em;
 }*/
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
+		.full-width-img {
+		padding-top: 100px;
+		height: 100%;
+	}
+
+	.covertext {
+		/*	position: absolute;
+		position-top: 50px;*/
+	}
+
+	/*.box {
+		margin-top: 0px;
+	}
 	.box {
-		width: 85%;
+		width: 90%;
 		position: relative;
-		}
+		}*/
 	.box1 {
-		width: 85%;
+		width: 90%;
 	}
 	.navbar-default .navbar-brand {
 		font-size: 20px;
@@ -355,36 +382,28 @@ background-position: left top;
 #weddingcountdownh {
 	padding: 0.1em;
 /*position: absolute;*/
-  left: 2%;
-  width: 100%;
-  text-align: left;
-}
-
-}
-
-#weddingcountdownh {
-	padding: 1em;
-position: absolute;
   left: 0%;
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
 #weddingcountdownh > div {
 	padding: 10px;
 	/*background: #000;*/
-	background: 1;
-	display: inline-block;
+	/*background: 1;*/
+	display: block
 	/*width: 100%;*/
-	position: relative;
-	display: inline-block;
+	/*position: relative;*/
 	background-color: #DAD2D8;
 	border-radius: 50px;
 	
 }
 
 .smalltexth {
-	padding-top: 0em;
+	padding-top: 10em;
 	font-size: 1em;
 	color: #2B2B2B;
-	text-align: left;
+	text-align: center;
 }
+
+}
+
