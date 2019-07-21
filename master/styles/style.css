@@ -31,16 +31,16 @@
 	margin-bottom: 0px;
 }
 	
-/*#cf1 {
+#cf1 {
 	padding: 0;
 	position: relative;
 	
-}*/
+}
 
-/*.navbar {
+.navbar {
 	border: 0;
 	position: absolute;
-}*/
+}
 
 .navbar-collapse,
 .navbar-form {
@@ -352,4 +352,32 @@ background-position: left top;
 		url("https://i.imgur.com/tr6oTnt.jpg");
 }
 
+
+
+}
+	
+	
+}
+
+#weddingcountdownh {
+	padding: 1em;
+}
+#weddingcountdownh > div {
+	padding: 10px;
+	/*background: #000;*/
+	background: 1;
+	display: inline-block;
+	/*width: 100%;*/
+	position: relative;
+	display: inline-block;
+	background-color: #DAD2D8;
+	border-radius: 50px;
+	
+}
+
+.smalltexth {
+	padding-top: 0em;
+	font-size: 1em;
+	color: #2B2B2B;
+	text-align: left;
 }
