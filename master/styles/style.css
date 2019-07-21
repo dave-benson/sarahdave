@@ -360,7 +360,7 @@ background-position: left top;
 }
 
 #weddingcountdownh {
-	padding: 14px;
+	padding: 1em;
 }
 #weddingcountdownh > div {
 	padding: 10px;
@@ -368,6 +368,8 @@ background-position: left top;
 	background: 1;
 	display: inline-block;
 	/*width: 100%;*/
+	position: relative;
+	display: inline-block;
 	background-color: #DAD2D8;
 	border-radius: 50px;
 	
