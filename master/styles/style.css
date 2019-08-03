@@ -110,7 +110,7 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #ddd1c7;
+	background-color: #000;
 }
 
 .menu {
@@ -373,8 +373,10 @@ position: absolute;
 			padding: 0.35em;
 /*position: absolute;*/
   left: 0.7%;
-  width: 100%;
+	top: 0px;	
+  width: 50%;
   text-align: left;
+		
 	}
 	
 #weddingcountdownh > div {
