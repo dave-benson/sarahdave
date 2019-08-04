@@ -11,7 +11,9 @@
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-	  <link rel="stylesheet" type="text/css" href="styles/style.css">	  
+	  <link rel="stylesheet" type="text/css" href="styles/style.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	  
 <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -38,35 +40,88 @@
 	
 	</head>
   <body>
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-<div class="page">
-<div class="container-fluid main">
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
+  <div class="page">
+	<nav class="navbar navbar-default col-xs-12" id="myNav1">
+    <div class="container-fluid" id="cf1">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span> 
-        </button>
-               <a class="navbar-brand" href="http://www.sarahdave.co.uk">SARAH & DAVE</a>
+        </button>	  
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-         <li><a href="ceromony">Ceromony</a></li>
-         <li><a href="hotels">Hotels & Taxis</a></li>
+		<div id="weddingcountdownh"> 
+    <div class="smalltexth"> <span class="daysh" id="day"></span> Days Remaining</div>
+    </div>
+	  </div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav" id="MyNavbarList">
+         <li><a href="#venue">Venue & Ceromony</a></li>
+         <li><a href="hotels">Hotels and Taxis</a></li>
 	<li><a href="gettingthere">Getting There</a></li>
 	<li><a href="rsvp">RSVP</a></li>
         </ul>
-      </div>
+		  </div>
+  </nav>   
+	   <div class="contentblock">
+	   <div class="hero">
+  			<div class="box3">
+				<h1><strong>Sarah & Dave</strong></h1>
+  			  <h1><strong>18 JULY 2020</strong></h1>
+  			  <h2>The Secret Garden Wedding Marquee</h2>
+			  <h3>Burwash Manor, Barton</h3>
+  			</div> 
+		   </div>
+		   <div class="photos">
+		   <div class="photoframe">
+			 <!--  <div class="container-fluid main">
+  <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="1000">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active background a"></div>
+      <div class="item background b"></div>
+      <div class="item background c"></div>
+			<div class="item background d"></div>
+			<div class="item background e"></div>
+			<div class="item background f"></div>
+			<div class="item background g"></div>
     </div>
-  </nav>
-	<h2>1</h2>
-	</div>
+  </div>
+</div> -->
+			   
+			   </div>
+		   </div>
+	<div class="venue">
+		<a name="venue"></a>
+		<div class="venuecards">
+		   <div class="mdl-card mdl-shadow--2dp demo-card-square">
+    <div class="mdl-card__title mdl-card--expand">
+      <h2 class="mdl-card__title-text">Venue</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+      <p>The Secret Garden Wedding Marquee</p>
+<p>Burwash Manor</p><p>New Road, Barton</p>
+		<p>Cambridge CB23 7EY</p>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+<a href="http://www.burwashweddings.co.uk/">Website</a>
+    </div>
+  </div>
+			   <div class="mdl-card mdl-shadow--2dp demo-card-square">
+    <div class="mdl-card__title mdl-card--expand">
+      <h2 class="mdl-card__title-text">Ceremony</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+      <a class="mdl-button mdl-button--accent mdl-js-button mdl-js-ripple-effect">
+          Action
+        </a>
+    </div>
+  </div>	
+		   </div>
+	  </div>
+	   </div>
 </div>
  <script type="text/javascript" src="scripts/app.js"></script>
   </body>
