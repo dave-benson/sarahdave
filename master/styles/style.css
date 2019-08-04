@@ -1,5 +1,60 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,800");
 
+body{
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	margin: 10px;
+}
+
+.solidblockmenu{
+	margin: 0;
+	padding: 0;
+	float: left;
+	font: bold 14px Arial;
+	width: 100%;
+	overflow: hidden;
+	top: 0;
+	position: sticky;
+	margin-bottom: 1em;
+	border: 1px solid #625e00;
+	background: black;
+	border-width: 1px 0;
+}
+
+
+.solidblockmenu li{
+	display: inline;
+}
+
+.solidblockmenu li a{
+	float: left;
+	color: white;
+	padding: 12px 11px;
+	text-decoration: none;
+	border-right: 1px solid white;
+}
+
+.solidblockmenu li a:visited{
+	color: white;
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+	color: white;
+	background: darkred;
+}
+
+
+
+
+
+
+
+
+
+
 .page{
   height:100%;
   width:100%;
@@ -560,7 +615,10 @@ background: #E8B7DD;
   width: 100%;
 }
 .bit-2 {
-  width: 50%;
+  width: 25%;
+}
+.bit-2-1 {
+	width: 50%;
 }
 .bit-3 {
   width: 33.33%;
@@ -673,7 +731,20 @@ footer > p {
           border-radius: 10px;
   cursor: pointer;
 }
-
+.boxy {
+  text-align: center;
+  font: 1em "Helvetica Neue" Arial;
+  background: #f1fbfd;
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  color: #2a3644;
+  padding: 15px 0px 15px 0px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+  cursor: pointer;
+}
 /* responsive
 ---------------*/
 @media (max-width: 320px) {
@@ -728,7 +799,11 @@ footer > p {
   }
 }
 @media (min-width: 481px) and (max-width: 800px) {
-  .bit-3 {
+	}
+.bit-2 {
+	width: 50%;
+}
+	.bit-3 {
     width: 33.33%;
   }
   .bit-4 {
