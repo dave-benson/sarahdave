@@ -18,10 +18,11 @@
 }
 #myNav1 {
 	background-image: none;
-	background-color: #FFFFFF;
+	background-color: #F3EAF4;
 	border-radius: 0px;
 	border: 0;
 	box-shadow: none;
+	height: 50px;
 	
 	position: absolute;
 	top: 0;
@@ -42,9 +43,9 @@
 	position: absolute;
 }
 
-.navbar-collapse,
+/*.navbar-collapse,*/
 .navbar-form {
-	background-color: #FFFFFF;
+	background-color: #F3EAF4;
 	text-align: center
 	}
 
@@ -67,6 +68,8 @@
 	/*padding-left: 25%;*/
 
 }
+
+#myNavbarl
 	
 .navbar-default .navbar-brand {
 	font-family: Verdana;
@@ -331,21 +334,7 @@ position: absolute;
 
 
 
-@media (min-width: 768px) {
-	.full-width-img {
-		padding-top: 100px;
-		height: 100%;
-	}
 
-	.covertext {
-		/*	position: absolute;
-		position-top: 50px;*/
-	}
-
-	.box {
-		margin-top: 0px;
-	}
-}
 
 #weddingcountdown {
 	/*padding: 1em*/
@@ -404,9 +393,20 @@ position: absolute;
 }
 
 @media (max-width: 768px) {
+		.full-width-img {
+		padding-top: 100px;
+		height: 100%;
+	}
+
+	.covertext {
+		/*	position: absolute;
+		position-top: 50px;*/
+	}
+	
 	.box {
 		width: 85%;
 		position: relative;
+		margin-top: 0px;
 		}
 	.box1 {
 		width: 90%;
@@ -444,7 +444,7 @@ position: absolute;
 }
 
 	.navbar-default .navbar-brand {
-		font-size: 20px;
+		font-size: 10px;
 			color: #ddd1c7;
 	}
 	#myNav1 {
@@ -629,7 +629,7 @@ footer > p {
   width: 95%;
   margin: 0px auto;
 }
-.box {
+.boxy {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
   background: #f1fbfd;
@@ -643,37 +643,35 @@ footer > p {
           border-radius: 6px;
   cursor: pointer;
 }
-.box:hover {
-  background:#fff;
-}
-.button,
-.button:visited {
-  display: block;
-  margin: 50px auto;
-  width: 200px;
-  background: #ff6060;
+.boxy1 {
+  text-align: center;
   font: 1em "Helvetica Neue" Arial;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-      -ms-border-radius: 6px;
-       -o-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-transition: all 0.1s ease-in-out;
-     -moz-transition: all 0.1s ease-in-out;
-          transition: all 0.1s ease-in-out;
-  border: 0;
-  padding: 15px;
-  margin-bottom: 100px;
-  color: #fff;
-  text-decoration: none;
+  background: #f1fbfd;
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  color: #2a3644;
+  padding: 15px 0px 15px 0px;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+          border-radius: 10px;
+  cursor: pointer;
+	background-image: url(https://i.imgur.com/EUFyvSi.png) ; 
+	background-size: cover;
 }
-.button:hover {
-  opacity: 0.9;
-  color: #fff;
-}
-.button:hover {
-  opacity: 0.9;
-  color: #fff;
+.boxy3 {
+  text-align: center;
+  font: 1em "Helvetica Neue" Arial;
+  background: #f1fbfd;
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  color: #2a3644;
+  padding: 15px 0px 15px 0px;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+          border-radius: 10px;
+  cursor: pointer;
 }
 
 /* responsive
@@ -703,6 +701,9 @@ footer > p {
   .bit-8 {
     width: 100%;
   }
+	
+	
+
   .bit-9 {
     width: 100%;
   }
@@ -777,3 +778,124 @@ footer > p {
     display:none;
   }
 }
+
+
+
+
+
+.card{
+	width: 100%; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
+	overflow: hidden;
+	background-color: #FFFFFF;
+   
+	border-radius: 15px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	text-align: center;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+
+	.card:first-of-type{
+		margin-right: 25px;
+	}
+
+.banner{
+	height: 100px;
+	width: 100%;
+	padding-top: 0px;
+	background-color: #FAFAFA;
+	background-size: cover;
+	background-position: center;
+}
+
+	.card:first-of-type .banner{
+		background-image: url("https://pbs.twimg.com/profile_banners/1026096500902903809/1556969620/1500x500");
+	}
+
+.avatar{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-color: #F1F1F1;
+	border-radius: 100%;
+	background-image: url("https://www.gonvillehotel.co.uk/wp-content/uploads/2018/07/feature_bedrooms_bg-768x512.jpg");
+}
+.avatar1{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-color: #F1F1F1;
+	border-radius: 100%;
+	background-image: url("https://www.premierinn.com/content/dam/pi/websites/hotelimages/gb/en/C/CAMNEW/Cambridge%20City%20Centre%2002%20(2).jpg");
+}
+.avatar2{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-color: #F1F1F1;
+	border-radius: 100%;
+	background-image: url("https://www.travelodge.co.uk/sites/default/files/styles/c12/public/GB0617_Cambridge_NewmarketRd_EXTERIOR.jpg");
+}
+.avatar3{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-color: #F1F1F1;
+	border-radius: 100%;
+	background-image: url("https://i2-prod.cambridge-news.co.uk/incoming/article12923863.ece/ALTERNATES/s1200/Puntsssss.jpg");
+}
+
+
+h3, a, i{
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+
+	h3{
+		margin-top: 165px;
+		margin-bottom: 5px;
+		font-size: 12px;
+		color: #212121;
+	}
+
+	a{
+		display: block;
+		padding: 5px 0px;
+		font-size: 14px;
+		color: #9E9E9E;
+		text-decoration: none;
+	}
+
+		a:hover{
+			background-color: #FAFAFA;
+			color: inherit;
+		}
+
+ul{
+	margin-top: 10px;
+	padding: 15px 0px;
+	background-color: #FAFAFA;
+}
+
+	ul a{
+		display: inline;
+		margin-right: 10px;
+	}
+
+		ul a:last-of-type{
+			margin-right: 0px;
+		}
+
+			ul a i:hover{
+				transform: scale(1.5);
+			}
