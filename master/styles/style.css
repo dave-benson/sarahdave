@@ -678,7 +678,7 @@ footer > p {
 
 /* responsive
 ---------------*/
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .bit-1 {
     width:100%;
   }
