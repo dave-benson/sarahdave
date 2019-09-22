@@ -964,6 +964,34 @@ margin-top: 0px;
 	background:#F9FCFA;
 	
 }
+#weddingcountdownh {
+			position: absolute;
+  left: 25px;
+	top: 32px;	
+  width: 50%;
+  text-align: left;
+		
+	}
+	
+#weddingcountdownh > div {
+	padding: 7px;
+	/*background: #000;*/
+	background: 1;
+	display: inline-block;
+	/*width: 100%;*/
+	position: absolute;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+	
+	
+}
+	.smalltexth {
+	padding-top: 0em;
+	font-size: 1.1em;
+	color: #2B2B2B;
+	text-align: center;
+}
 
 .covertext {
 	position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
@@ -982,7 +1010,9 @@ margin-top: 0px;
 	background: 1;
 	display: inline-block;
 	width: 100%;
-	position: relative;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
 }
 
 #clockdiv {
@@ -1067,14 +1097,17 @@ margin-top: 0px;
 	background: 1;
 	display: inline-block;
 	/*width: 100%;*/
-	position: relative;
-	background-color: #DAD2D8;
-	border-radius: 40px;
+	position: absolute;
+	left: 17px;
+	top: 7px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
 	
 }
 	.smalltexth {
 	padding-top: 0em;
-	font-size: 0.7em;
+	font-size: 1em;
 	color: #2B2B2B;
 	text-align: center;
 }
