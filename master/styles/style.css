@@ -1079,6 +1079,96 @@ margin-top: 0px;
 	text-align: center;
 }
 
+	.navbar-default .navbar-brand {
+		font-size: 10px;
+			color: #ddd1c7;
+	}
+	#myNav1 {
+		font-size: 20px;
+			color: #ddd1c7;
+	}
+	.carousel .background {
+background-position: left top;
+		background-size: 100%;
+	background-repeat: no-repeat;
+		opacity: 0.1;
+/*height: 800px;*/
+}
+.carousel .background.a {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/DXRT7o8.jpg");
+}
+	.carousel .background.b {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/irRXMNT.jpg");
+}
+	.carousel .background.c {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/tr6oTnt.jpg");
+}
+	.carousel .background.d {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/qM17ywV.jpg");
+}
+	.carousel .background.e {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/iQ2EVLd.jpg");
+}
+	.carousel .background.f {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/Cwupurr.jpg");
+}
+	.carousel .background.g {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("https://i.imgur.com/tr6oTnt.jpg");
+}
+
+}
+
+
+
+
+.venuecards
+
+
+ .demo-card-square.mdl-card {
+    width: 46%;
+    height: 320px;
+    float: left;
+    margin: 2%;
+    position: relative;
+	 background: #E8D9C8
+	/*margin-left: 20px;*/
+  }
+  
+  .demo-card-square.mdl-card {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+  }
+  
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background: #B3C0A4;
+	text-align: center
+  }
+  
+  .demo-card-square > .mdl-card__accent {
+    background: #ff9800;
+  }
+
+.hotels{
+	top: 32px;
+height: 100%;
+
+}
+
+.hotelcard{
+background: #E8B7DD;
+	position: relative;
+	top: 360px;
+	float: left;
+}
+
+
 
 *,
 *:after,
