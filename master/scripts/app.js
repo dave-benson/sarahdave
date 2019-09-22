@@ -37,3 +37,62 @@ if (t < 0) {
         document.getElementById("second").innerHTML = '0'; }
 }, 1000);
 /*Clock End*/
+
+const menu = document.querySelector(".menu")
+var init, min, max
+window.addEventListener("scroll", scroll, { passive: true })
+window.addEventListener("load", ready)
+ready()
+
+function ready() {
+  menu.style.transform = "translateY(0px)"
+  init =
+    menu.getBoundingClientRect().top + document.documentElement.scrollTop ||
+    document.body.scrollTop
+  init = Math.round(init)
+  min = init * 0.5
+  max = init * 1.5
+  scroll()
+}
+
+function scroll() {
+  const top = document.documentElement.scrollTop || document.body.scrollTop;
+  let pos
+  if (top < min) {
+    menu.setAttribute('data-position', "static")
+    pos = 0;
+  } else if (top > max) {
+    
+    menu.setAttribute('data-position', "fixed")
+    pos = top - init
+  } else {
+    menu.setAttribute('data-position', "hybrid")
+    let t = (top - min) / (max - min)
+    let qq = min * (1 + t * (2 - t) * (init / min - 1))
+    pos = top - qq
+  }
+  menu.style.transform = "translateY(" + pos + "px)"
+}
+
+
+
+
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+
+// Highlight the top nav as scrolling occurs
+$('body').scrollspy({
+    target: '.navbar-fixed-top'
+})
+
+// Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
