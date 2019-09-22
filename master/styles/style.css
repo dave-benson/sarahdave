@@ -10,18 +10,19 @@ p{
 }
 
 .solidblockmenu{
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	float: left;
 	font: bold 14px Arial;
 	width: 100%;
 	overflow: hidden;
-	top: 0;
+	top: 0px;
 	position: sticky;
 	margin-bottom: 1em;
 	border: 1px solid #625e00;
-	background: black;
+	background: #C8C8C8;
 	border-width: 1px 0;
+	margin-top: 0px;
 }
 
 
