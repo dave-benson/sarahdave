@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #1ee2e7;
+    border-color: #343434;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #1ee2e7;
+    background-color: #343434;
 }
 
 .btn-primary:hover,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #1ee2e7;
-    background-color: #1ee2e7;
+    border-color: #343434;
+    background-color: #343434;
 }
 
 .btn-primary .badge {
-    color: #1ee2e7;
+    color: #343434;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #1ee2e7;
+    border-color: #343434;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #1ee2e7;
+    background-color: #343434;
 }
 
 .btn-xl:hover,
@@ -134,7 +134,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #17d0d5;
+    border-color: #343434;
     color: #fff;
     background-color: #17d0d5;
 }
@@ -160,8 +160,8 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #1ee2e7;
-    background-color: #1ee2e7;
+    border-color: #343434;
+    background-color: #343434;
 }
 
 .btn-xl .badge {
@@ -191,8 +191,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #1ee2e7;
-    background-color: #1ee2e7;
+    border-color: #343434;
+    background-color: #343434;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +201,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #1ee2e7;
+    background-color: #343434;
 }
 
 .navbar-default .nav li a {
@@ -215,19 +215,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #1ee2e7;
+    color: #343434;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #1ee2e7;
+    background-color: #343434;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #17d0d5;
+    background-color: #343434;
 }
 
 @media(min-width:768px) {
@@ -1079,96 +1079,6 @@ margin-top: 0px;
 	text-align: center;
 }
 
-	.navbar-default .navbar-brand {
-		font-size: 10px;
-			color: #ddd1c7;
-	}
-	#myNav1 {
-		font-size: 20px;
-			color: #ddd1c7;
-	}
-	.carousel .background {
-background-position: left top;
-		background-size: 100%;
-	background-repeat: no-repeat;
-		opacity: 0.1;
-/*height: 800px;*/
-}
-.carousel .background.a {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/DXRT7o8.jpg");
-}
-	.carousel .background.b {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/irRXMNT.jpg");
-}
-	.carousel .background.c {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/tr6oTnt.jpg");
-}
-	.carousel .background.d {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/qM17ywV.jpg");
-}
-	.carousel .background.e {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/iQ2EVLd.jpg");
-}
-	.carousel .background.f {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/Cwupurr.jpg");
-}
-	.carousel .background.g {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/tr6oTnt.jpg");
-}
-
-}
-
-
-
-
-.venuecards
-
-
- .demo-card-square.mdl-card {
-    width: 46%;
-    height: 320px;
-    float: left;
-    margin: 2%;
-    position: relative;
-	 background: #E8D9C8
-	/*margin-left: 20px;*/
-  }
-  
-  .demo-card-square.mdl-card {
-    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
-  }
-  
-  .demo-card-square > .mdl-card__title {
-    color: #fff;
-    background: #B3C0A4;
-	text-align: center
-  }
-  
-  .demo-card-square > .mdl-card__accent {
-    background: #ff9800;
-  }
-
-.hotels{
-	top: 32px;
-height: 100%;
-
-}
-
-.hotelcard{
-background: #E8B7DD;
-	position: relative;
-	top: 360px;
-	float: left;
-}
-
-
 
 *,
 *:after,
@@ -1443,7 +1353,7 @@ footer > p {
 .card{
 	width: 100%; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
 	overflow: hidden;
-	background-color: #FFFFFF;
+	background-color: #FAFAFA;
    
 	border-radius: 15px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -1460,7 +1370,7 @@ footer > p {
 .banner{
 	height: 100px;
 	width: 100%;
-	padding-top: 0px;
+	padding-top: 10px;
 	background-color: #FAFAFA;
 	background-size: cover;
 	background-position: center;
