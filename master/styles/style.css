@@ -1706,7 +1706,7 @@ border-radius: 20px;
 	/*background-image: url(https://i.imgur.com/EUFyvSi.png);*/
 	background-blend-mode:difference;
 	background-size: cover;
-	text-shadow: 0px 0px 2px #40434E;
+	text-shadow: 0px 0px 0px #40434E;
 	
 }
 .boxy3a {
@@ -1723,4 +1723,22 @@ border-radius: 20px;
           border-radius: 10px;
   cursor: pointer;
 	min-height: 220px;
+}
+
+.button {
+  font: 30px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 4px 6px 2px 6px;
+  /*border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;*/
+	border-radius: 10px;
+width: 100px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	text-align: center;
+	display: inline-block;
 }
