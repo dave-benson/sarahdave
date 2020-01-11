@@ -17,13 +17,23 @@ body {
 }
 
 .url {
-	color: #FFFFFF;
+	color: #F1F1F1;
+	text-decoration-line: underline;
+	font-weight: bold;
 }
+
 .taxiblock {
 	padding-top:2%;
 	
 }
 
+.sites {
+	display:flex;
+}
+
+.halfsite {
+	width:50%;	
+}
 .pseudolink {
 	padding-left: 3%;
 	padding-right: 3%;
@@ -40,6 +50,8 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 p.large {
@@ -55,14 +67,14 @@ a.active {
 }
 
 a {
-    color: #FFF;
+    color: #fff;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #FFF;
+    color: #000;
 }
 
 h1,
@@ -1001,7 +1013,7 @@ margin-top: 0px;
 	display: inline-block;
 	/*width: 100%;*/
 	position: absolute;
-	background-color: #FFFFFF;
+	background-color: #fff;
 	border-radius: 10px;
 	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
 	
@@ -1661,3 +1673,40 @@ border-radius: 20px;
   width: 100%;
   border: 0;
   }
+
+
+.boxy1a {
+  text-align: center;
+  font: 1em "Helvetica Neue" Arial;
+  background: #40434E;
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  color: #FFFFFF;
+  margin-top: 1%;
+	padding: 2% 2% 2% 2%;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+          border-radius: 10px;
+  cursor: pointer;
+	/*background-image: url(https://i.imgur.com/EUFyvSi.png);*/
+	background-blend-mode:difference;
+	background-size: cover;
+	text-shadow: 0px 0px 2px #40434E;
+	
+}
+.boxy3a {
+  text-align: center;
+  font: 1em "Helvetica Neue" Arial;
+  background: #40434E;
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  color: #FFFFFF;
+  padding: 2% 2% 2% 2%;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+          border-radius: 10px;
+  cursor: pointer;
+	min-height: 220px;
+}
