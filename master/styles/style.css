@@ -16,6 +16,14 @@ body {
 	
 }
 
+.url {
+	color: #FFFFFF;
+}
+.taxiblock {
+	padding-top:2%;
+	
+}
+
 .pseudolink {
 	padding-left: 3%;
 	padding-right: 3%;
@@ -1360,6 +1368,7 @@ footer > p {
        -o-border-radius: 10px;
           border-radius: 10px;
   cursor: pointer;
+	min-height: 220px;
 }
 .boxy {
   text-align: center;
