@@ -13,13 +13,27 @@ body {
 
 .hotelblock {
 	padding-top:2%;
-	
+}
+
+.menublock {
+	padding-top:2%;	
+}
+
+.giftblock {
+	padding-top:2%;	
 }
 
 .url {
 	color: #F1F1F1;
 	text-decoration-line: underline;
 	font-weight: bold;
+}
+
+.h3a {
+	color: #F1F1F1;
+	text-decoration-line: underline;
+	font-size: 22px;
+
 }
 
 .taxiblock {
