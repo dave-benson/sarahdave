@@ -1,3 +1,4 @@
+
 (function() {
   'use strict';
 
@@ -471,5 +472,8 @@ function scroll() {
 
 
 
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
 
 
