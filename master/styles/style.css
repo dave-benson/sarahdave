@@ -24,9 +24,16 @@ body {
 }
 
 .url {
-	color: #F1F1F1;
+	color: #000;
 	text-decoration-line: underline;
 	font-weight: bold;
+}
+
+.url1 {
+	color: #FFF;
+	text-decoration-line: underline;
+	/*font-weight: bold;*/
+	font-size: 17px;
 }
 
 .h3a {
@@ -1362,6 +1369,8 @@ footer > p {
           border-radius: 6px;
   cursor: pointer;
 }
+
+
 .boxy1 {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
@@ -1381,6 +1390,11 @@ footer > p {
 	background-size: cover;
 	text-shadow: 0px 0px 2px #40434E;
 }
+
+.card {
+	height: 300px;
+}
+
 .boxy3 {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
@@ -1535,7 +1549,7 @@ footer > p {
 .card{
 	width: 100%; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
 	overflow: hidden;
-	background-color: #FAFAFA;
+	background-color: #EAFFF5;
    
 	border-radius: 15px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -1553,7 +1567,7 @@ footer > p {
 	height: 100px;
 	width: 100%;
 	padding-top: 10px;
-	background-color: #FAFAFA;
+	background-color: #EAFFF5;
 	background-size: cover;
 	background-position: center;
 }
@@ -1603,6 +1617,27 @@ footer > p {
 	background-image: url("https://i2-prod.cambridge-news.co.uk/incoming/article12923863.ece/ALTERNATES/s1200/Puntsssss.jpg");
 }
 
+.avatar4{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-color: #F1F1F1;
+	border-radius: 100%;
+	background-image: url("https://www.icabbi.com/wp-content/uploads/2018/10/Panther-150x150.png");
+}
+
+.avatar5{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-color: #F1F1F1;
+	border-radius: 100%;
+	background-image: url("https://lh3.googleusercontent.com/qy_wZ92sFQccojEtscg52vtdAQmCIeQ4jsybMPmuML9Or7_SEOyrt0Jn0wyG-l2Fyw=s180-rw");
+}
 
 h3, a, i{
 	font-family: 'Roboto', sans-serif;
@@ -1742,3 +1777,4 @@ width: 100px;
 	text-align: center;
 	display: inline-block;
 }
+
