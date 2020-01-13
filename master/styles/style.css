@@ -243,7 +243,8 @@ fieldset[disabled] .btn-xl.active {
         background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
-        transition: padding .3s;
+		transition: padding .3s;}
+.boxya {min-height:700px;
     }
     .navbar-default .navbar-brand {
         font-size: 2em;
@@ -725,6 +726,7 @@ background: #E8B7DD;
 }
 .bit-2-1 {
 	width: 50%;
+	height:fit-content;
 }
 .bit-3 {
   width: 33.33%;
@@ -781,7 +783,18 @@ footer > p {
   width: 95%;
   margin: 0px auto;
 }
-.boxy {
+
+.ceremonyframe {
+  width: 95%;
+  margin: 0px auto;
+	background-color: #A5C4D4;
+	color: #2A2ED8;
+	height:fit-content;
+	border-radius: 10px;
+	overflow: hidden
+}
+
+/*.boxy {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
   background: #f1fbfd;
@@ -793,7 +806,7 @@ footer > p {
       -ms-border-radius: 6px;
        -o-border-radius: 6px;
           border-radius: 6px;
-  cursor: pointer;
+  cursor: pointer;*/
 }
 .boxy1 {
   text-align: center;
@@ -835,7 +848,7 @@ footer > p {
 .boxy {
   text-align: center;
   font: 1em "Helvetica Neue" Arial;
-  background: #40434E;
+  background: #593F62;
   box-shadow:0px 1px 1px rgba(0,0,0,0.1);
   color: #FFFFFF;
   padding: 15px 0px 15px 0px;
@@ -845,10 +858,31 @@ footer > p {
        -o-border-radius: 6px;
           border-radius: 6px;
   cursor: pointer;
+	height:fit-content;
+	min-height:220px;
+}
+.boxya {
+  text-align: center;
+  font: 1em "Helvetica Neue" Arial;
+  background: #593F62;
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  color: #FFFFFF;
+  padding: 15px 0px 15px 0px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+  cursor: pointer;
+	height:fit-content;
+	min-height:220px;
 }
 /* responsive
 ---------------*/
 @media (max-width: 320px) {
+	.boxya {
+  min-height:750px;
+}
 	.bit-1 {
     width:100%;
   }
@@ -896,6 +930,7 @@ footer > p {
     float: right;
   }
 }
+
 .bit-2 {
 	width: 50%;
 }
@@ -934,6 +969,9 @@ footer > p {
   }
 }
 @media (max-width: 480px) {
+	.boxya {
+  min-height:640px;
+}
 	.picframe {
 		width: 20px;
 		height: 20px;
