@@ -205,14 +205,14 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-toggle {
     border-color: #343434;
-    background-color: #343434;
+    background-color: #4BC6B9;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #343434;
+    background-color: #4BC6B9;
 }
 .navbar-default .nav li a {
     text-transform: uppercase;
@@ -224,17 +224,17 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #343434;
+    color: #4BC6B9;
 }
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #343434;
+    background-color: #4BC6B9;
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #343434;
+    background-color: #4BC6B9;
 }
 @media(min-width:768px) {
     .navbar-default {
@@ -723,7 +723,7 @@ background: #E8B7DD;
   width: 100%;
 }
 .bit-2 {
-  width: 25%;
+  width: 50%;
 }
 .bit-2-1 {
 	width: 50%;
@@ -910,7 +910,7 @@ footer > p {
     width:100%;
   }
   .bit-2 {
-    width:100%;
+    width:50%;
   }
   .bit-3 {
     width: 100%;
@@ -995,6 +995,7 @@ footer > p {
 	.boxya {
   min-height:640px;
 }
+
 	.picframe {
 		width: 20px;
 		height: 20px;
@@ -1014,87 +1015,120 @@ footer > p {
 .card{
 	width: 100%; /* ⬅ Size - Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
 	overflow: hidden;
-	background-color: #DAD2D8;
+	background-color: #ADE5DF;
 	border-radius: 15px;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 	text-align: center;
 	-webkit-transition: .1s ease-in-out;
 	transition: .1s ease-in-out; 
 	box-shadow:1px 2px 1px rgba(0,0,0,0.9);
+	max-width: 250px;
+	display: inline-block;
 }
+
 	.card:first-of-type{
 		margin-right: 25px;
 	}
 .banner{
-	height: 100px;
+	height: 155px;
 	width: 100%;
 	padding-top: 10px;
-	background-color: #DAD2D8;
+	background-color: #4BC6B9;
 	background-size: cover;
 	background-position: center;
 }
 	.card:first-of-type .banner{
-		background-image: url("https://pbs.twimg.com/profile_banners/1026096500902903809/1556969620/1500x500");
+		background-image: url("");
 	}
+
+
+
+.banh3{
+	padding: 2px 0 0 0;
+	margin: 0 0 0 0;
+}
+.cardlink {
+	color:#000000;
+	text-decoration: underline;
+}
+
 .avatar{
-	height: 100px;
-	width: 100px;
+	height: 110px;
+	width: 110px;
 	margin: auto;
 	background-size: cover;
 	background-position: center;
 	background-color: #F1F1F1;
 	border-radius: 100%;
 	background-image: url("https://www.gonvillehotel.co.uk/wp-content/uploads/2018/07/feature_bedrooms_bg-768x512.jpg");
+	border-style: solid;
+	border-width:thick;
+	border-color: #ADE5DF;
 }
 .avatar1{
-	height: 100px;
-	width: 100px;
+	height: 110px;
+	width: 110px;
 	margin: auto;
 	background-size: cover;
 	background-position: center;
 	background-color: #F1F1F1;
 	border-radius: 100%;
 	background-image: url("https://www.premierinn.com/content/dam/pi/websites/hotelimages/gb/en/C/CAMNEW/Cambridge%20City%20Centre%2002%20(2).jpg");
+	border-style: solid;
+	border-width:thick;
+	border-color: #ADE5DF;
 }
 .avatar2{
-	height: 100px;
-	width: 100px;
+	height: 110px;
+	width: 110px;
 	margin: auto;
 	background-size: cover;
 	background-position: center;
 	background-color: #F1F1F1;
 	border-radius: 100%;
 	background-image: url("https://www.travelodge.co.uk/sites/default/files/styles/c12/public/GB0617_Cambridge_NewmarketRd_EXTERIOR.jpg");
+	border-style: solid;
+	border-width:thick;
+	border-color: #ADE5DF;
 }
 .avatar3{
-	height: 100px;
-	width: 100px;
+	height: 110px;
+	width: 110px;
 	margin: auto;
 	background-size: cover;
 	background-position: center;
 	background-color: #F1F1F1;
 	border-radius: 100%;
 	background-image: url("https://i2-prod.cambridge-news.co.uk/incoming/article12923863.ece/ALTERNATES/s1200/Puntsssss.jpg");
+	border-style: solid;
+	border-width:thick;
+	border-color: #ADE5DF;
 }
 .avatar4{
-	height: 100px;
-	width: 100px;
+	height: 110px;
+	width: 110px;
 	margin: auto;
-	background-size: cover;
+	background-size: 115px;
 	background-position: center;
 	background-color: #F1F1F1;
 	border-radius: 100%;
 	background-image: url("https://www.icabbi.com/wp-content/uploads/2018/10/Panther-150x150.png");
+	border-style: solid;
+	border-width:thick;
+	border-color: #ADE5DF;
 }
 .avatar5{
-	height: 100px;
-	width: 100px;
+	height: 110px;
+	width: 110px;
 	margin: auto;
 	background-size: cover;
 	background-position: center;
 	background-color: #F1F1F1;
 	border-radius: 100%;
 	background-image: url("https://lh3.googleusercontent.com/qy_wZ92sFQccojEtscg52vtdAQmCIeQ4jsybMPmuML9Or7_SEOyrt0Jn0wyG-l2Fyw=s180-rw");
+	border-style: solid;
+	border-width:thick;
+	border-color: #ADE5DF;
 }
 h3, a, i{
 	font-family: 'Roboto', sans-serif;
@@ -1116,7 +1150,7 @@ h3, a, i{
 		text-decoration: none;
 	}
 		a:hover{
-			background-color: #FAFAFA;
+			/*background-color: #FAFAFA;*/
 			color: inherit;
 		}
 ul{
@@ -1141,7 +1175,10 @@ ul{
 	/*display: inline-block;*/
 	margin:auto;
 }
-
+.boxy2 {
+text-align: center;	
+	
+}
 
 .boxy1a {
   text-align: center;
@@ -1321,4 +1358,5 @@ img {
 	margin: 0 0 0 0;
 	padding-top: 0.5em;
 	
+}.banh3 {
 }
