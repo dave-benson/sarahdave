@@ -1284,7 +1284,7 @@ img {
   display: block;
   height: 4em;
   line-height:  2em;
-  background: #333;
+  background: #4BC6B9;
   border-radius: 3px;
   color: #FFF;
   cursor: pointer;
@@ -1294,13 +1294,14 @@ img {
   
   transition: background .3s ease;
 }
-.toggle:hover { background: #222 }
+/*.toggle:hover { background: #222 }*/
 .inner {
-  text-align: left;
+  text-align: center;
   padding: 0 1em;
   overflow: hidden;
   max-height: 0;
-	background: #FF00004;
+	background: #fff;
+	color: #000;
   
   transition: max-height .6s ease;
 }
