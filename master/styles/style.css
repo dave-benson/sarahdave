@@ -866,6 +866,23 @@ footer > p {
 	height:fit-content;
 	min-height:220px;
 }
+.boxy5 {
+  text-align: center;
+	box-shadow: 5px 10px 18px #000;
+  font: 1em "Helvetica Neue" Arial;
+  background: #FFFFFF;
+  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  color: #FF0004;
+  padding: 15px 0px 15px 0px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+       -o-border-radius: 6px;
+          border-radius: 6px;
+  cursor: pointer;
+	height:fit-content;
+	/*min-height:220px;*/
+}
 .boxya {
   text-align: center;
 	box-shadow: 5px 10px 18px #000;
@@ -1184,7 +1201,7 @@ ul{
 	box-shadow: 5px 10px 18px #000;
   font: 1em "Helvetica Neue" Arial;
   background: #EC9A29;
-  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.1), 0 0 30px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1);
   color: #000;
   margin-top: 1%;
 	padding: 2% 2% 2% 2%;
@@ -1255,3 +1272,52 @@ img {
 	border-radius: 20px;
 }
 
+.accordion {
+  list-style: none;
+  padding: 0;
+}
+.accordion li {
+  margin-bottom: 1em;
+}
+.toggle {
+  width: 100%;
+  display: block;
+  height: 4em;
+  line-height:  2em;
+  background: #333;
+  border-radius: 3px;
+  color: #FFF;
+  cursor: pointer;
+  text-align: center;
+	border-radius: 40px;
+	padding-top:0.1%;
+  
+  transition: background .3s ease;
+}
+.toggle:hover { background: #222 }
+.inner {
+  text-align: left;
+  padding: 0 1em;
+  overflow: hidden;
+  max-height: 0;
+	background: #FF00004;
+  
+  transition: max-height .6s ease;
+}
+.inner *:first-child { margin-top: 1.5em }
+.inner *:last-child { margin-bottom: 1em }
+.inner img { display: block; margin: 0 auto }
+
+/* =====
+ * Functionality
+ * ===== */
+.accordion input[type="checkbox"]:checked + li > .inner {
+  max-height: 350px; /* CSS can't animate to height:auto; :( */ 
+  /* set max-height to a higher value if you want large accordions */
+  /* alternatively we could just do fixed-height, but dat's ugly yo */
+}
+.accordh3{
+	margin: 0 0 0 0;
+	padding-top: 0.5em;
+	
+}
