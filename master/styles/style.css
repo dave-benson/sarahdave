@@ -482,7 +482,12 @@ p{
 	margin-bottom: 0px;
 }
 .body {
-	height: 2000px
+	/*height: 2000px;*/
+	min-height: 100%;
+}
+
+.index{
+	background: #000;
 }
 .contentblock {
 	position:absolute;
