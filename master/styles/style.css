@@ -871,7 +871,7 @@ footer > p {
 	/*box-shadow: 5px 10px 18px #000;*/
   font: 1em "Helvetica Neue" Arial;
   background: #F9FCFA;
-  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+ /* box-shadow:0px 1px 1px rgba(0,0,0,0.1);*/
   color: #FF0004;
   padding: 15px 0px 15px 0px;
   -webkit-border-radius: 6px;
@@ -1182,10 +1182,10 @@ text-align: center;
 
 .boxy1a {
   text-align: center;
-	box-shadow: 5px 10px 18px #000;
+/*	box-shadow: 5px 10px 18px #000;*/
   font: 1em "Helvetica Neue" Arial;
-  background: #40434E;
-  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+  background: #fff;
+ /* box-shadow:0px 1px 1px rgba(0,0,0,0.1);*/
   color: #000;
   margin-top: 1%;
 	padding: 2% 2% 2% 2%;
@@ -1198,7 +1198,10 @@ text-align: center;
 	/*background-image: url(https://i.imgur.com/EUFyvSi.png);*/
 	background-blend-mode:difference;
 	background-size: cover;
-	text-shadow: 0px 0px 0px #40434E;
+	/*text-shadow: 0px 0px 0px #40434E;*/
+	border-color: #4BC6B9;
+	border-style: double;
+	border-width: thick;
 	
 }
 
@@ -1251,17 +1254,17 @@ text-align: center;
 	/*background-image: url(https://i.imgur.com/EUFyvSi.png);*/
 	background-blend-mode:difference;
 	background-size: cover;
-	text-shadow: 0px 0px 0px #40434E;
+/*text-shadow: 0px 0px 0px #40434E;*/
 	border-color: #EC9A29;
 	border-style: double;
 	border-width: thick;
 }
 .boxy3a {
   text-align: center;
-	box-shadow: 5px 10px 18px #000;
+	/*box-shadow: 5px 10px 18px #000;*/
   font: 1em "Helvetica Neue" Arial;
   background: #40434E;
-  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
+/*  box-shadow:0px 1px 1px rgba(0,0,0,0.1);*/
   color: #FFFFFF;
   padding: 2% 2% 2% 2%;
   -webkit-border-radius: 10px;
@@ -1275,19 +1278,20 @@ text-align: center;
 .button {
   font: 30px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   text-decoration: none;
-  background-color: #EEEEEE;
+  background-color: #4BC6B9;
   color: #333333;
   padding: 4px 6px 2px 6px;
   /*border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;*/
-	border-radius: 10px;
-width: 100px;
+	border-radius: 100px;
+width: 110px;
 	margin-top: 14px;
 	margin-bottom: 14px;
 	text-align: center;
 	display: inline-block;
+	box-shadow:3px 3px 3px rgba(0,0,0,0.5);
 }
 
 .rslides {
