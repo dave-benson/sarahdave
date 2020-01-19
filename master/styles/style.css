@@ -24,7 +24,7 @@ body {
 .url1 {
 		color: #ADE5DF;
 	/*font-weight: bold;*/
-	font-size: 20px;
+	font-size: 22px;
 	/*background-color: rgba(249,252,250,0.8);*/
 	/*background-opacity: 0.9;*/
 	/*width: 20%;*/
@@ -48,6 +48,18 @@ body {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.stsad {
+		color: #ADE5DF;
+	/*font-weight: bold;*/
+	font-size: 36px;
+	/*background-color: rgba(249,252,250,0.8);*/
+	/*background-opacity: 0.9;*/
+	/*width: 20%;*/
+	text-align: center;
+	display: inline-block;
+	border-radius: 100px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 /*.head{
 	background: #fff;
 
@@ -56,15 +68,16 @@ body {
 	border-radius: 20px;
 }
 .h2sad {
-		color: #000;
+	color: #ADE5DF;
 	/*font-weight: bold;*/
 	font-size: 26px;
-	background-color: rgba(249,252,250,0.5);
-	background-opacity: 0.6;
+	/*background-color: rgba(249,252,250,0.8);*/
+	/*background-opacity: 0.9;*/
 	/*width: 20%;*/
 	text-align: center;
 	display: inline-block;
 	border-radius: 100px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .h3a {
