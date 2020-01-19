@@ -22,11 +22,41 @@ body {
 	font-weight: bold;
 }
 .url1 {
-	color: #F9FCFA;
+	color: #000;
 	text-decoration-line: underline;
 	/*font-weight: bold;*/
-	font-size: 19px;
+	font-size: 20px;
+	background-color: rgba(249,252,250,0.5);
+	background-opacity: 0.6;
+	/*width: 20%;*/
+	text-align: center;
+	display: inline-block;
 }
+
+.h3sad {
+		color: #000;
+	/*font-weight: bold;*/
+	font-size: 26px;
+	background-color: rgba(249,252,250,0.5);
+	background-opacity: 0.6;
+	/*width: 20%;*/
+	text-align: center;
+	display: inline-block;
+	border-radius: 100px;
+}
+
+.h2sad {
+		color: #000;
+	/*font-weight: bold;*/
+	font-size: 32px;
+	background-color: rgba(249,252,250,0.5);
+	background-opacity: 0.6;
+	/*width: 20%;*/
+	text-align: center;
+	display: inline-block;
+	border-radius: 100px;
+}
+
 .h3a {
 	color: #EC9A29;
 	text-decoration-line: underline;
@@ -507,8 +537,8 @@ p{
 }
 .smalltexth {
 	padding-top: 0px;
-	font-size: 2.3em;
-	color: #F9FCFA;
+	font-size: 2em;
+	color: #FFF;
 	text-align: center;
 margin-top: 0px;
 }
@@ -656,41 +686,7 @@ margin-top: 0px;
 		font-size: 20px;
 			color: #ddd1c7;
 	}
-	.carousel .background {
-background-position: left top;
-		background-size: 100%;
-	background-repeat: no-repeat;
-		opacity: 0.1;
-/*height: 800px;*/
-}
-.carousel .background.a {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/DXRT7o8.jpg");
-}
-	.carousel .background.b {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/irRXMNT.jpg");
-}
-	.carousel .background.c {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/tr6oTnt.jpg");
-}
-	.carousel .background.d {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/qM17ywV.jpg");
-}
-	.carousel .background.e {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/iQ2EVLd.jpg");
-}
-	.carousel .background.f {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/Cwupurr.jpg");
-}
-	.carousel .background.g {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("https://i.imgur.com/tr6oTnt.jpg");
-}
+
 }
 .hotels{
 	top: 32px;
@@ -817,11 +813,11 @@ footer > p {
 }
 .boxy1c {
   text-align: center;
-	box-shadow: 5px 10px 18px #000;
+	/*box-shadow: 5px 10px 18px #000;*/
   font: 1em "Helvetica Neue" Arial;
-  background: #40434E;
-  box-shadow:0px 1px 1px rgba(0,0,0,0.1);
-  color: #F9FCFA;
+  background: #F9FCFA; /*#4BC6B9;*/ /*#F9FCFA;*/
+  /*box-shadow:0px 1px 1px rgba(0,0,0,0.1);*/
+  color: #000;
   margin-top: 6%;
 	padding: 15px 0px 15px 0px;
   -webkit-border-radius: 10px;
@@ -830,10 +826,12 @@ footer > p {
        -o-border-radius: 10px;
           border-radius: 10px;
   cursor: pointer;
-	background-image: url(https://i.imgur.com/EUFyvSi.png);
-	background-blend-mode:difference;
-	background-size: cover;
-	text-shadow: 0px 0px 2px #40434E;
+	background-image: url(https://i.imgur.com/sDOHwn1.png); /*(https://i.imgur.com/EUFyvSi.png)*/
+	/*background-blend-mode:difference;*/
+	background-size:70%;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	/*text-shadow: 0px 0px 2px #FFF;*/
 }
 .card {
 	height: 300px;
@@ -1362,7 +1360,7 @@ img {
  * Functionality
  * ===== */
 .accordion input[type="checkbox"]:checked + li > .inner {
-  max-height: 350px; /* CSS can't animate to height:auto; :( */ 
+  max-height: 1000px; /* CSS can't animate to height:auto; :( */ 
   /* set max-height to a higher value if you want large accordions */
   /* alternatively we could just do fixed-height, but dat's ugly yo */
 }
