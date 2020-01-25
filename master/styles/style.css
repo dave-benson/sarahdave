@@ -762,6 +762,7 @@ background: #E8B7DD;
 }
 .bit-1 {
   width: 100%;
+text-align: center;
 }
 .bit-2 {
   width: 50%;
@@ -874,7 +875,7 @@ footer > p {
 	/*text-shadow: 0px 0px 2px #FFF;*/
 	/*background-size: 100%;*/
 	background-width: 100%;
-	min-height: 500px;
+	min-height: 400px;
 }
 .card {
 	height: 300px;
@@ -1273,6 +1274,7 @@ text-align: center;
 	border-color: #4BC6B9;
 	border-style: double;
 	border-width: thick;
+	display: inline-block;
 	
 }
 
@@ -1375,6 +1377,7 @@ width: 110px;
 	background-repeat: no-repeat;
 	background-size:contain;
 	background-position: center center;
+	text-align: center;
 }
 
 img {
